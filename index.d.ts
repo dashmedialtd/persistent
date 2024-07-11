@@ -4,7 +4,7 @@ export type PersistentStore = Record<string, string>
 
 export interface PersistentEvent {
   key: string
-  newValue: string
+  newValue: string | undefined
 }
 
 export interface PersistentListener {
